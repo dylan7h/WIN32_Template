@@ -14,6 +14,7 @@ ASM_DIR			:=	$(BUILD_DIR)/asm
 # Path of Include directoies
 #============================================================
 INC_PATH		:=	include
+INC_PATH		+=	WndMain
 
 #============================================================
 # Path of Source lists
@@ -25,10 +26,11 @@ LASRC	:=
 ASRC	:=
 
 # C Source
-CSRC	:= 	source/hello.c
+CSRC	:=
 
 # C++ Source
-CXXSRC	:=	source/hello.cpp
+CXXSRC	:=	source/main.cpp
+CXXSRC	+=	WndMain/WndMain.cpp
 
 #============================================================
 # Path of Libraries

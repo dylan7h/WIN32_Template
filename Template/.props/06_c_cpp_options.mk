@@ -5,7 +5,7 @@ CXX_STANDARD_VER	:= 	c++14
 #============================================================
 # Set Compile Options by Configurations
 #============================================================
-C_CXX_COMMON_FLAGS	:= -m$(INSTRUCTION_SET) -W -Werror -Wall -pedantic-errors
+C_CXX_COMMON_FLAGS	:= -m$(INSTRUCTION_SET) -W -Wall
 
 
 # Build Mode
