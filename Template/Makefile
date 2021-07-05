@@ -30,7 +30,7 @@ all: $(ELF_DIR)/$(TARGET_PREFIX)$(TARGET).$(FILE_EXT)
 #============================================================
 clean:
 	@printf "%-10s Product of $(TARGET)\n" "RM"
-	$(V)rm -rf $(OBJ_DIR)/$(TARGET)
+	$(V)rm -rf $(OBJ_DIR)
 	$(V)rm -rf $(DEF_DIR)/$(TARGET).def
 	$(V)rm -rf $(ELF_DIR)/$(TARGET).$(EXE_EXT)
 	$(V)rm -rf $(ELF_DIR)/$(TARGET_PREFIX)$(TARGET).$(STATIC_LIB_EXT)

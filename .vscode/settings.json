@@ -1,6 +1,6 @@
 {
     "Makefile": {
         "TARGET": "Template",
-        "EXTENSION": "elf"
+        "EXTENSION": "exe"
     }
 }
